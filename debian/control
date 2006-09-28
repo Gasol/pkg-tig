@@ -1,0 +1,23 @@
+Source: tig
+Section: utils
+Priority: optional
+Maintainer: Sebastian Harl <sh@tokkee.org>
+Build-Depends: debhelper (>= 5), libncurses5-dev, asciidoc, xmlto,
+ docbook-utils
+Standards-Version: 3.7.2
+
+Package: tig
+Architecture: any
+Depends: git-core, ${shlibs:Depends}
+Description: content addressable filesystem (CLI repository browser)
+ git is a stupid (but extremely fast) directory content manager. It doesn't do
+ a whole lot, but what it 'does' do is track directory contents efficiently.
+ .
+ This package contains a command line repository browser capable of displaying
+ a summerized revision log and showing commit log messages, diffstats and
+ diffs.
+ .
+ tig may also be used as a pager. It reads input from stdin and colorizes it.
+ .
+  Homepage: http://jonas.nitro.dk/tig/
+

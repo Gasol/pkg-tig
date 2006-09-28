@@ -1,0 +1,6 @@
+tig (0.5-1) unstable; urgency=low
+
+  * Initial release (Closes: #389926).
+
+ -- Sebastian Harl <sh@tokkee.org>  Thu, 28 Sep 2006 13:09:36 +0200
+
