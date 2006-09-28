@@ -19,7 +19,7 @@ build: build-stamp
 build-stamp:
 	dh_testdir
 	
-	$(MAKE) all doc
+	CFLAGS="$(FLAGS)" $(MAKE) all doc
 	
 	touch build-stamp
 
@@ -35,7 +35,7 @@ clean:
 install: build
 	dh_testdir
 	dh_testroot
-	dh_clean -k 
+	dh_clean -k
 	dh_installdirs
 	
 	$(MAKE) install install-doc DESTDIR=$(CURDIR)/debian/tig \
@@ -47,6 +47,7 @@ binary-indep:
 binary-arch: build install
 	dh_testdir
 	dh_testroot
+	dh_installchangelogs
 	dh_installdocs BUGS TODO manual.pdf
 	dh_link
 	dh_strip
