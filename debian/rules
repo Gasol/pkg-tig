@@ -14,16 +14,18 @@ else
 	CFLAGS += -O2
 endif
 
+include /usr/share/dpatch/dpatch.make
+
 build: build-stamp
 
-build-stamp:
+build-stamp: patch
 	dh_testdir
 	
 	CFLAGS="$(FLAGS)" $(MAKE) all doc
 	
 	touch build-stamp
 
-clean:
+clean: unpatch
 	dh_testdir
 	dh_testroot
 	rm -f build-stamp
@@ -60,5 +62,5 @@ binary-arch: build install
 	dh_builddeb
 
 binary: binary-indep binary-arch
-.PHONY: build clean binary-indep binary-arch binary install
+.PHONY: build clean binary-indep binary-arch binary install patch unpatch
 

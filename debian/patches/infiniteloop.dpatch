@@ -1,0 +1,36 @@
+#! /bin/sh /usr/share/dpatch/dpatch-run
+## infiniteloop.dpatch by Jonas Fonseca <fonseca@diku.dk>
+##
+## DP: add_keybinding: always allocate the new keybinding
+## DP:
+## DP: Fixes infinite loop repoted by Miciah. Also simply continue when wgetch
+## DP: returns ERR (-1) instead of calling get_keybinding() etc.
+
+@DPATCH@
+
+diff --git a/tig.c b/tig.c
+index aac7c4e..6c2b7d0 100644
+--- a/tig.c
++++ b/tig.c
+@@ -767,10 +767,9 @@ static struct keybinding *keybindings[AR
+ static void
+ add_keybinding(enum keymap keymap, enum request request, int key)
+ {
+-	struct keybinding *keybinding = keybindings[keymap];
++	struct keybinding *keybinding;
+ 
+-	if (!keybinding)
+-		keybinding = calloc(1, sizeof(*keybinding));
++	keybinding = calloc(1, sizeof(*keybinding));
+ 	if (!keybinding)
+ 		die("Failed to allocate keybinding");
+ 
+@@ -3532,6 +3531,8 @@ main(int argc, char *argv[])
+ 
+ 		/* Refresh, accept single keystroke of input */
+ 		key = wgetch(status_win);
++		if (key == ERR)
++			continue;
+ 
+ 		request = get_keybinding(display[current_view]->keymap, key);
+ 
