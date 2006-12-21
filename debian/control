@@ -3,7 +3,7 @@ Section: utils
 Priority: optional
 Maintainer: Sebastian Harl <sh@tokkee.org>
 Build-Depends: debhelper (>= 5), libncurses5-dev, asciidoc (>= 7), xmlto,
- docbook-utils
+ docbook-utils, dpatch
 Standards-Version: 3.7.2
 
 Package: tig
