@@ -54,7 +54,7 @@ binary-arch: build install
 	dh_installexamples tigrc
 	dh_link
 	dh_strip
-	dh_compress
+	dh_compress -X.pdf
 	dh_fixperms
 	dh_installdeb
 	dh_shlibdeps
