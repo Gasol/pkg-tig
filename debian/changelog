@@ -3,8 +3,9 @@ tig (0.5-2) unstable; urgency=medium
   * Added two upstream patches by Jonas Fonseca <fonseca@diku.dk>:
     - Fix a segfault when navigating in tree mode (Closes: #403565).
     - Fix an infinite loop.
+  * Put the sample manpage in /usr/share/doc/tig/examples/.
 
- -- Sebastian Harl <sh@tokkee.org>  Mon, 18 Dec 2006 11:38:39 +0000
+ -- Sebastian Harl <sh@tokkee.org>  Fri, 22 Dec 2006 09:08:57 +0000
 
 tig (0.5-1) unstable; urgency=low
 
