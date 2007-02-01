@@ -1,3 +1,10 @@
+tig (0.5-3) unstable; urgency=low
+
+  * Added upstream patch by Jonas Fonseca <fonseca@diku.dk> to update the
+    version string to 0.5 (Closes: #409095).
+
+ -- Sebastian Harl <sh@tokkee.org>  Thu,  1 Feb 2007 10:25:45 +0000
+
 tig (0.5-2) unstable; urgency=medium
 
   * Added two upstream patches by Jonas Fonseca <fonseca@diku.dk>:
