@@ -1,0 +1,20 @@
+#! /bin/sh /usr/share/dpatch/dpatch-run
+## v0.5.dpatch by Jonas Fonseca <fonseca@diku.dk>
+##
+## DP: Update the version string.
+
+@DPATCH@
+
+diff --git a/tig.c b/tig.c
+index f5f536c..aac7c4e 100644
+--- a/tig.c
++++ b/tig.c
+@@ -12,7 +12,7 @@
+  */
+ 
+ #ifndef	VERSION
+-#define VERSION	"tig-0.4.git"
++#define VERSION	"tig-0.5.git"
+ #endif
+ 
+ #ifndef DEBUG
