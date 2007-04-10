@@ -14,18 +14,16 @@ else
 	CFLAGS += -O2
 endif
 
-include /usr/share/dpatch/dpatch.make
-
 build: build-stamp
 
-build-stamp: patch
+build-stamp:
 	dh_testdir
 	
 	CFLAGS="$(FLAGS)" $(MAKE) all doc
 	
 	touch build-stamp
 
-clean: unpatch
+clean:
 	dh_testdir
 	dh_testroot
 	rm -f build-stamp

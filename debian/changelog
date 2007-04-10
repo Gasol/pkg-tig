@@ -1,3 +1,13 @@
+tig (0.6-1) unstable; urgency=low
+
+  * New upstream release.
+    - Handle cursor keys in split pane mode correctly (Closes: #410394).
+  * Removed infiniteloop.dpatch - included in the new release.
+  * Removed splitview.dpatch - included in the new release.
+  * Removed v0.5.dpatch - included in the new release.
+
+ -- Sebastian Harl <sh@tokkee.org>  Tue, 10 Apr 2007 20:38:41 +0000
+
 tig (0.5-3) unstable; urgency=low
 
   * Added upstream patch by Jonas Fonseca <fonseca@diku.dk> to update the
