@@ -1,4 +1,4 @@
-tig (0.6-1) unstable; urgency=low
+tig (0.7-1) unstable; urgency=low
 
   * New upstream release.
     - Handle cursor keys in split pane mode correctly (Closes: #410394).
@@ -6,7 +6,7 @@ tig (0.6-1) unstable; urgency=low
   * Removed splitview.dpatch - included in the new release.
   * Removed v0.5.dpatch - included in the new release.
 
- -- Sebastian Harl <sh@tokkee.org>  Tue, 10 Apr 2007 20:38:41 +0000
+ -- Sebastian Harl <sh@tokkee.org>  Mon,  4 Jun 2007 15:05:29 +0200
 
 tig (0.5-3) unstable; urgency=low
 
