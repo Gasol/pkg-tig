@@ -4,6 +4,8 @@ Priority: optional
 Maintainer: Sebastian Harl <sh@tokkee.org>
 Build-Depends: debhelper (>= 5), libncurses5-dev, asciidoc (>= 7), xmlto, docbook-utils
 Standards-Version: 3.7.2
+XS-Vcs-Git: git://git.tokkee.org/pkg-tig.git
+XS-Vcs-Browser: http://git.tokkee.org/?p=pkg-tig.git
 
 Package: tig
 Architecture: any
