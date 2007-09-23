@@ -10,9 +10,14 @@ XS-Vcs-Browser: http://git.tokkee.org/?p=pkg-tig.git
 Package: tig
 Architecture: any
 Depends: git-core, ${shlibs:Depends}
-Description: content addressable filesystem (CLI repository browser)
- git is a stupid (but extremely fast) directory content manager. It doesn't do
- a whole lot, but what it 'does' do is track directory contents efficiently.
+Description: fast, scalable, distributed revision control system (CLI repository browser)
+ Git is popular version control system designed to handle very large projects
+ with speed and efficiency; it is used mainly for various open source projects,
+ most notably the Linux kernel.
+ .
+ Git falls in the category of distributed source code management tools.  Every
+ Git working directory is a full-fledged repository with full revision tracking
+ capabilities, not dependent on network access or a central server.
  .
  This package contains a command line repository browser capable of displaying
  a summerized revision log and showing commit log messages, diffstats and
