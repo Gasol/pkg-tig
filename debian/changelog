@@ -1,10 +1,11 @@
 tig (0.9-1) unstable; urgency=low
 
   * New upstream release.
+    - The manpage builds fine now (Closes: #434127).
   * Install new bash completion script to /etc/bash_completion.d/.
   * Adapted package description to the latest git-core package description.
 
- -- Sebastian Harl <sh@tokkee.org>  Sun, 23 Sep 2007 20:25:48 +0200
+ -- Sebastian Harl <sh@tokkee.org>  Sun, 23 Sep 2007 21:13:06 +0200
 
 tig (0.8-1) unstable; urgency=low
 
