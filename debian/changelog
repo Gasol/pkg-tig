@@ -1,3 +1,10 @@
+tig (0.9-1) unstable; urgency=low
+
+  * New upstream release.
+  * Install new bash completion script to /etc/bash_completion.d/.
+
+ -- Sebastian Harl <sh@tokkee.org>  Sun, 23 Sep 2007 19:34:38 +0200
+
 tig (0.8-1) unstable; urgency=low
 
   * New upstream release.

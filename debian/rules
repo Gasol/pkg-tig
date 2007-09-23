@@ -40,6 +40,10 @@ install: build
 	
 	$(MAKE) install install-doc DESTDIR=$(CURDIR)/debian/tig \
 			prefix=/usr mandir=/usr/share/man
+	
+	mkdir -p debian/tig/etc/bash_completion.d
+	cp contrib/tig-completion.bash debian/tig/etc/bash_completion.d/tig
+	chmod 644 debian/tig/etc/bash_completion.d/tig
 
 binary-indep:
 	# nothing to do here
@@ -49,7 +53,7 @@ binary-arch: build install
 	dh_testroot
 	dh_installchangelogs
 	dh_installdocs BUGS TODO manual.pdf
-	dh_installexamples tigrc
+	dh_installexamples contrib/tigrc
 	dh_link
 	dh_strip
 	dh_compress -X.pdf
