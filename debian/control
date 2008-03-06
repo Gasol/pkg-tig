@@ -11,18 +11,17 @@ XS-Vcs-Browser: http://git.tokkee.org/?p=pkg-tig.git
 Package: tig
 Architecture: any
 Depends: git-core, ${shlibs:Depends}
-Description: fast, scalable, distributed revision control system (CLI repository browser)
- Git is popular version control system designed to handle very large projects
- with speed and efficiency; it is used mainly for various open source projects,
- most notably the Linux kernel.
+Description: ncurses-based Git repository browser
+ This package contains a text-mode interface for the version control system
+ Git. It may be used to browse the history and contents of a repository.
  .
- Git falls in the category of distributed source code management tools.  Every
- Git working directory is a full-fledged repository with full revision tracking
- capabilities, not dependent on network access or a central server.
- .
- This package contains a command line repository browser capable of displaying
- a summerized revision log and showing commit log messages, diffstats and
- diffs.
+ The following main features are supported:
+  - View revision logs, commit messages, diffstats, diffs, archive trees and
+    file contents.
+  - Visualize revision graphs.
+  - Stage / unstage changes and add untracked files.
+  - Merge files.
+  - Cherry-pick commits.
  .
  tig may also be used as a pager. It reads input from stdin and colorizes it.
 
