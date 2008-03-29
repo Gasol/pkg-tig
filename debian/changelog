@@ -5,8 +5,10 @@ tig (0.10.1-1) unstable; urgency=low
     - Added versioned build dependency on dpkg-dev (>= 1.14.6).
   * Improved package description as suggested by Adeodato Simó
     (Closes: #469290).
+  * Fixed a typo in debian/rules, preventing CFLAGS from being used, thanks to
+    Cyril Brulebois for the patch.
 
- -- Sebastian Harl <sh@tokkee.org>  Sat, 29 Mar 2008 18:05:58 +0100
+ -- Sebastian Harl <sh@tokkee.org>  Sat, 29 Mar 2008 18:21:49 +0100
 
 tig (0.9.1-1) unstable; urgency=low
 

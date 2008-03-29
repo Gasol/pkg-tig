@@ -19,7 +19,7 @@ build: build-stamp
 build-stamp:
 	dh_testdir
 	
-	CFLAGS="$(FLAGS)" $(MAKE) all doc
+	CFLAGS="$(CFLAGS)" $(MAKE) all doc
 	
 	touch build-stamp
 
