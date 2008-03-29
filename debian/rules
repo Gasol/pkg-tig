@@ -19,7 +19,7 @@ build: build-stamp
 build-stamp:
 	dh_testdir
 	
-	CFLAGS="$(CFLAGS)" $(MAKE) all doc
+	CFLAGS="$(CFLAGS)" $(MAKE) all doc LDLIBS=-lncursesw
 	
 	touch build-stamp
 

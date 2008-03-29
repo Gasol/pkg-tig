@@ -5,10 +5,14 @@ tig (0.10.1-1) unstable; urgency=low
     - Added versioned build dependency on dpkg-dev (>= 1.14.6).
   * Improved package description as suggested by Adeodato Simó
     (Closes: #469290).
+  * Added wide character support, thanks to Cyril Brulebois for the patch
+    (Closes: #457068):
+    - Build-depend on libncursesw5-dev instead of libncurses5-dev.
+    - Pass "LDLIBS=-lncursesw" to make, overriding the default "-lcurses".
   * Fixed a typo in debian/rules, preventing CFLAGS from being used, thanks to
     Cyril Brulebois for the patch.
 
- -- Sebastian Harl <sh@tokkee.org>  Sat, 29 Mar 2008 18:21:49 +0100
+ -- Sebastian Harl <sh@tokkee.org>  Sat, 29 Mar 2008 18:32:04 +0100
 
 tig (0.9.1-1) unstable; urgency=low
 
