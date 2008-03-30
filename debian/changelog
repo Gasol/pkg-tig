@@ -8,11 +8,13 @@ tig (0.10.1-1) unstable; urgency=low
   * Added wide character support, thanks to Cyril Brulebois for the patch
     (Closes: #457068):
     - Build-depend on libncursesw5-dev instead of libncurses5-dev.
-    - Pass "LDLIBS=-lncursesw" to make, overriding the default "-lcurses".
+    - Pass "LIBS=-lncursesw" to configure.
   * Fixed a typo in debian/rules, preventing CFLAGS from being used, thanks to
     Cyril Brulebois for the patch.
+  * Use the configure script provided by upstream.
+  * Updated standards-version to 3.7.3 - no changes.
 
- -- Sebastian Harl <sh@tokkee.org>  Sat, 29 Mar 2008 18:32:04 +0100
+ -- Sebastian Harl <sh@tokkee.org>  Sun, 30 Mar 2008 14:40:14 +0200
 
 tig (0.9.1-1) unstable; urgency=low
 
