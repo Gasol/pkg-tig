@@ -9,12 +9,13 @@ tig (0.10.1-1) unstable; urgency=low
     (Closes: #457068):
     - Build-depend on libncursesw5-dev instead of libncurses5-dev.
     - Pass "LIBS=-lncursesw" to configure.
+    - Added -I/usr/include/ncursesw to CFLAGS.
   * Fixed a typo in debian/rules, preventing CFLAGS from being used, thanks to
     Cyril Brulebois for the patch.
   * Use the configure script provided by upstream.
   * Updated standards-version to 3.7.3 - no changes.
 
- -- Sebastian Harl <sh@tokkee.org>  Sun, 30 Mar 2008 14:40:14 +0200
+ -- Sebastian Harl <sh@tokkee.org>  Mon, 31 Mar 2008 12:57:05 +0200
 
 tig (0.9.1-1) unstable; urgency=low
 
