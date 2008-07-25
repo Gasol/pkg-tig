@@ -2,8 +2,9 @@ tig (0.11-1) unstable; urgency=low
 
   * New upstream release.
   * Added git-core to the build dependencies (Closes: #481828).
+  * Updated standards-version to 3.8.0 - no changes.
 
- -- Sebastian Harl <sh@tokkee.org>  Fri, 25 Jul 2008 07:45:49 +0200
+ -- Sebastian Harl <sh@tokkee.org>  Fri, 25 Jul 2008 07:47:37 +0200
 
 tig (0.10.1-1) unstable; urgency=low
 
