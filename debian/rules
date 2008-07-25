@@ -1,5 +1,5 @@
 #!/usr/bin/make -f
-# debian/ruls for tig
+# debian/rules for tig
 #
 # Written by Sebastian Harl <sh@tokkee.org>
 
