@@ -44,6 +44,7 @@ clean:
 	rm -f config.h config.log config.make config.status
 	rm -rf manual.html-chunked/
 	rm -f manual.pdf manual.html manual.toc
+	rm -f tig.1 tig.1.html tigrc.5 tigrc.5.html
 	
 	dh_clean 
 
