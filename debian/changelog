@@ -11,8 +11,9 @@ tig (0.12.1-1) experimental; urgency=low
   * debian/control:
     - Depend on git-core >= 1.5.4 - this is required by the new upstream
       release.
+    - Changed XS-Vcs-* to Vcs-*.
 
- -- Sebastian Harl <sh@tokkee.org>  Sat, 11 Oct 2008 16:54:49 +0200
+ -- Sebastian Harl <sh@tokkee.org>  Sat, 11 Oct 2008 18:06:24 +0200
 
 tig (0.11-1) unstable; urgency=low
 
