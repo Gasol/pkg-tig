@@ -4,11 +4,13 @@ tig (0.12.1-1) experimental; urgency=low
   * Uploading to experimental because of Lenny freeze.
   * debian/rules:
     - Install upstream NEWS file to /usr/share/doc/tig/.
+    - No longer add -I/usr/include/ncursesw to CFLAGS - this is now handled by
+      the configure script.
   * debian/control:
     - Depend on git-core >= 1.5.4 - this is required by the new upstream
       release.
 
- -- Sebastian Harl <sh@tokkee.org>  Sat, 11 Oct 2008 16:41:07 +0200
+ -- Sebastian Harl <sh@tokkee.org>  Sat, 11 Oct 2008 16:52:23 +0200
 
 tig (0.11-1) unstable; urgency=low
 
