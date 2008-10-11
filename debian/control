@@ -10,7 +10,7 @@ XS-Vcs-Browser: http://git.tokkee.org/?p=pkg-tig.git
 
 Package: tig
 Architecture: any
-Depends: git-core, ${shlibs:Depends}
+Depends: git-core (>= 1.5.4), ${shlibs:Depends}
 Description: ncurses-based Git repository browser
  This package contains a text-mode interface for the version control system
  Git. It may be used to browse the history and contents of a repository.
