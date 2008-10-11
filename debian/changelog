@@ -1,6 +1,9 @@
 tig (0.12.1-1) experimental; urgency=low
 
   * New upstream release.
+    - Added support for refreshing the main view (Closes: #498365).
+    - Disable boundary commits by default, fixing the behavior when using
+      options like --author=foo (Closes: #498628).
   * Uploading to experimental because of Lenny freeze.
   * debian/rules:
     - Install upstream NEWS file to /usr/share/doc/tig/.
