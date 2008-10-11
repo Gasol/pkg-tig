@@ -23,7 +23,7 @@ config.status: configure
 	dh_testdir
 	./configure --host=$(DEB_HOST_GNU_TYPE) --build=$(DEB_BUILD_GNU_TYPE) \
 		--prefix=/usr --mandir=\$${prefix}/share/man --sysconfdir=/etc \
-		CFLAGS="$(CFLAGS)" LIBS="-lncursesw"
+		CFLAGS="$(CFLAGS)"
 
 build: build-stamp
 
