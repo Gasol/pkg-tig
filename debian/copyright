@@ -11,7 +11,7 @@ Copyright Holder:
 
 License:
 
-	Copyright (C) 2006-2008 Jonas Fonseca <fonseca@diku.dk>
+	Copyright (C) 2006-2009 Jonas Fonseca <fonseca@diku.dk>
 
 	This package is free software; you can redistribute it and/or modify
 	it under the terms of the GNU General Public License as published by
@@ -30,6 +30,6 @@ License:
 On Debian systems, the complete text of the GNU General Public License 
 can be found in `/usr/share/common-licenses/GPL'.
 
-The Debian packaging is (C) 2006-2008, Sebastian Harl <sh@tokkee.org> and
+The Debian packaging is (C) 2006-2009, Sebastian Harl <sh@tokkee.org> and
 is licensed under the GPL, see above.
 
