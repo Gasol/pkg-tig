@@ -1,8 +1,9 @@
 tig (0.13-1) experimental; urgency=low
 
   * New upstream release (Closes: #513727).
+  * debian/copyright: Use © instead of (C) to make lintian happy.
 
- -- Sebastian Harl <sh@tokkee.org>  Mon, 02 Feb 2009 10:27:51 +0100
+ -- Sebastian Harl <sh@tokkee.org>  Mon, 02 Feb 2009 12:21:46 +0100
 
 tig (0.12.1-1) experimental; urgency=low
 
