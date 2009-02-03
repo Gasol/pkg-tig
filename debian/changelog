@@ -9,8 +9,10 @@ tig (0.13-1) experimental; urgency=low
       parsing ~/.tigrc.
     - Added mem-corruption-fix.dpatch - upstream patch fixing memory
       corruption when updating the tree view.
+  * debian/rules:
+    - Remove auto-generated NEWS.html and README.html in the clean target.
 
- -- Sebastian Harl <sh@tokkee.org>  Tue, 03 Feb 2009 10:39:26 +0100
+ -- Sebastian Harl <sh@tokkee.org>  Tue, 03 Feb 2009 10:59:25 +0100
 
 tig (0.12.1-1) experimental; urgency=low
 
