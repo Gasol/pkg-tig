@@ -2,8 +2,11 @@ tig (0.13-1) experimental; urgency=low
 
   * New upstream release (Closes: #513727).
   * debian/copyright: Use © instead of (C) to make lintian happy.
+  * debian/patches:
+    - Added non-utf8-fix.dpatch - upstream patch fixing a regression in the
+      handling of non-UTF-8 locales.
 
- -- Sebastian Harl <sh@tokkee.org>  Mon, 02 Feb 2009 12:21:46 +0100
+ -- Sebastian Harl <sh@tokkee.org>  Tue, 03 Feb 2009 10:33:22 +0100
 
 tig (0.12.1-1) experimental; urgency=low
 
