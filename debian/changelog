@@ -1,3 +1,9 @@
+tig (0.14-1) experimental; urgency=low
+
+  * New upstream release.
+
+ -- Sebastian Harl <sh@tokkee.org>  Fri, 13 Feb 2009 10:42:06 +0100
+
 tig (0.13-1) experimental; urgency=low
 
   * New upstream release (Closes: #513727).
