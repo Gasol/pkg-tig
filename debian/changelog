@@ -5,8 +5,10 @@ tig (0.14-1) experimental; urgency=low
     - Removed non-utf8-fix.dpatch - included upstream.
     - Removed tigrc-parsing-fix.dpatch - included upstream.
     - Removed mem-corruption-fix.dpatch - included upstream.
+    - Added tigrc-example-fix.dpatch - fix error in examples for the set
+      command (Closes: #514990).
 
- -- Sebastian Harl <sh@tokkee.org>  Fri, 13 Feb 2009 10:47:17 +0100
+ -- Sebastian Harl <sh@tokkee.org>  Fri, 13 Feb 2009 10:55:30 +0100
 
 tig (0.13-1) experimental; urgency=low
 
