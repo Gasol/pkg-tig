@@ -7,8 +7,10 @@ tig (0.14.1-1) unstable; urgency=low
   * debian/patches:
     - Removed tigrc-example-fix.dpatch - included upstream.
     - Removed quoted-config-opts-fix.dpatch - included upstream.
+  * debian/control:
+    - Updated standards-version to 3.8.1 - no changes.
 
- -- Sebastian Harl <sh@tokkee.org>  Fri, 03 Apr 2009 18:01:54 +0200
+ -- Sebastian Harl <sh@tokkee.org>  Fri, 03 Apr 2009 18:07:18 +0200
 
 tig (0.14-1) experimental; urgency=low
 
