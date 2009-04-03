@@ -2,8 +2,10 @@ tig (0.14.1-1) unstable; urgency=low
 
   * New upstream release.
   * Uploading to unstable - Lenny has been released (Closes: #520636).
+  * debian/control:
+    - Moved tig from section "utils" to the newly added "vcs".
 
- -- Sebastian Harl <sh@tokkee.org>  Fri, 03 Apr 2009 17:40:18 +0200
+ -- Sebastian Harl <sh@tokkee.org>  Fri, 03 Apr 2009 17:53:58 +0200
 
 tig (0.14-1) experimental; urgency=low
 
