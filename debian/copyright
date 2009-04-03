@@ -27,7 +27,7 @@ License:
 	along with this package; if not, write to the Free Software
 	Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
 
-On Debian systems, the complete text of the GNU General Public License 
+On Debian systems, the complete text of the GNU General Public License
 can be found in `/usr/share/common-licenses/GPL'.
 
 The Debian packaging is © 2006-2009, Sebastian Harl <sh@tokkee.org> and
