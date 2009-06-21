@@ -4,8 +4,10 @@ tig (0.14.1-2) unstable; urgency=low
     - Added asciidoc-8.4.dpatch - upstream patch fixing build issues with
       asciidoc 8.4, thanks to Lucas Nussbaum for reporting this
       (Closes: #534046).
+  * debian/control:
+    - Updated standards-version to 3.8.2 - no changes.
 
- -- Sebastian Harl <tokkee@debian.org>  Sun, 21 Jun 2009 18:24:35 +0200
+ -- Sebastian Harl <tokkee@debian.org>  Sun, 21 Jun 2009 18:36:46 +0200
 
 tig (0.14.1-1) unstable; urgency=low
 
