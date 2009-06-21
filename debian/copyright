@@ -1,4 +1,4 @@
-This package was debianized by Sebastian Harl <sh@tokkee.org> on
+This package was debianized by Sebastian Harl <tokkee@debian.org> on
 Thu, 28 Sep 2006 13:09:36 +0200.
 
 It was downloaded from <http://jonas.nitro.dk/tig/releases/>.
@@ -30,6 +30,6 @@ License:
 On Debian systems, the complete text of the GNU General Public License
 can be found in `/usr/share/common-licenses/GPL'.
 
-The Debian packaging is © 2006-2009, Sebastian Harl <sh@tokkee.org> and
+The Debian packaging is © 2006-2009, Sebastian Harl <tokkee@debian.org> and
 is licensed under the GPL, see above.
 
