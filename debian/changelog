@@ -9,8 +9,10 @@ tig (0.15-1) unstable; urgency=low
     - Updated Standards-Version to 3.8.3 - no changes.
   * debian/patches:
     - Removed asciidoc-8.4.dpatch - included upstream.
+  * Added debian/tig.doc-base.
+    - … pointing to manual.html and manual.pdf.
 
- -- Sebastian Harl <tokkee@debian.org>  Mon, 23 Nov 2009 22:24:39 +0100
+ -- Sebastian Harl <tokkee@debian.org>  Mon, 23 Nov 2009 22:56:47 +0100
 
 tig (0.14.1-2) unstable; urgency=low
 
