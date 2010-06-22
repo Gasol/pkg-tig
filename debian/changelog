@@ -1,3 +1,10 @@
+tig (0.16-1) unstable; urgency=low
+
+  * New upstream release; thanks to Sedat Dilek for the pointer
+    (Closes: #586560).
+
+ -- Sebastian Harl <tokkee@debian.org>  Tue, 22 Jun 2010 22:08:52 +0200
+
 tig (0.15-1) unstable; urgency=low
 
   * New upstream release (Closes: #557575):
