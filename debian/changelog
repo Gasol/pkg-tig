@@ -10,8 +10,9 @@ tig (0.16-1) unstable; urgency=low
       1:1.7.0.4-2~) as an alternative dependency, according to the rename of
       the package; thanks to Jonathan Nieder and Beat Bolli for reporting this
       (Closes: #568582).
+    - Depend on ${misc:Depends}, as recommended by debhelper.
 
- -- Sebastian Harl <tokkee@debian.org>  Tue, 22 Jun 2010 22:43:06 +0200
+ -- Sebastian Harl <tokkee@debian.org>  Tue, 22 Jun 2010 22:51:20 +0200
 
 tig (0.15-1) unstable; urgency=low
 
