@@ -1,3 +1,14 @@
+tig (0.16-2) unstable; urgency=low
+
+  * debian/patches:
+    - Added bts594549-pager-segfault - upstream patch fixing a segfault when
+      started in pager mode; thanks to Kumar Appaiah for reporting this and
+      pointing out the upstream fix (Closes: #594549).
+  * debian/control, debian/rules:
+    - Build-depend on and use dpatch.
+
+ -- Sebastian Harl <tokkee@debian.org>  Fri, 03 Sep 2010 21:15:21 +0200
+
 tig (0.16-1) unstable; urgency=low
 
   * New upstream release; thanks to Sedat Dilek for the pointer
