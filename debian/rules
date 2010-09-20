@@ -19,9 +19,7 @@ else
 	CFLAGS += -O2
 endif
 
-include /usr/share/dpatch/dpatch.make
-
-config.status: configure $(DPATCH_STAMPFN)
+config.status: configure
 	dh_testdir
 	./configure --host=$(DEB_HOST_GNU_TYPE) --build=$(DEB_BUILD_GNU_TYPE) \
 		--prefix=/usr --mandir=\$${prefix}/share/man --sysconfdir=/etc \
@@ -36,7 +34,7 @@ build-stamp: config.status
 	
 	touch build-stamp
 
-clean: unpatch
+clean:
 	dh_testdir
 	dh_testroot
 	rm -f build-stamp
