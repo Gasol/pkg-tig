@@ -1,12 +1,13 @@
-tig (0.16.1-1) unstable; urgency=low
+tig (0.16.1-1) experimental; urgency=low
 
   * New upstream release.
   * debian/patches:
     - Removed bts594549-pager-segfault -- included upstream.
   * debian/control, debian/rules:
     - No longer use dpatch.
+  * Uploading to experimental because of the Squeeze freeze.
 
- -- Sebastian Harl <tokkee@debian.org>  Tue, 21 Sep 2010 01:24:20 +0200
+ -- Sebastian Harl <tokkee@debian.org>  Tue, 21 Sep 2010 01:26:04 +0200
 
 tig (0.16-2) unstable; urgency=low
 
