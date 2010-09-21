@@ -1,4 +1,4 @@
-tig (0.16.1-1) experimental; urgency=low
+tig (0.16.2-1) experimental; urgency=low
 
   * New upstream release.
   * debian/patches:
@@ -9,7 +9,7 @@ tig (0.16.1-1) experimental; urgency=low
   * debian/control:
     - Updated Standards-Version to 3.9.1 -- no changes.
 
- -- Sebastian Harl <tokkee@debian.org>  Tue, 21 Sep 2010 01:30:52 +0200
+ -- Sebastian Harl <tokkee@debian.org>  Tue, 21 Sep 2010 21:15:03 +0200
 
 tig (0.16-2) unstable; urgency=low
 
