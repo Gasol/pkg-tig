@@ -1,9 +1,14 @@
 tig (0.17-1) unstable; urgency=low
 
-  * New upstream release.
+  * New upstream release:
+    - Fixed ncurses 2.8 issue causing tig to fail to start; thanks to Tarek
+      Soliman for reporting this and RjY for pointing out the new upstream
+      release (Closes: #617318).
+    - Enabled revision graph rendering by default; thanks to Paul Wise for
+      reporting this (Closes: #611876).
   * Uploading to unstable -- Squeeze has been released \o/
 
- -- Sebastian Harl <tokkee@debian.org>  Tue, 08 Mar 2011 14:04:59 +0100
+ -- Sebastian Harl <tokkee@debian.org>  Tue, 08 Mar 2011 14:06:55 +0100
 
 tig (0.16.2-1) experimental; urgency=low
 
