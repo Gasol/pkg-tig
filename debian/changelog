@@ -1,3 +1,9 @@
+tig (0.17-1) experimental; urgency=low
+
+  * New upstream release.
+
+ -- Sebastian Harl <tokkee@debian.org>  Tue, 08 Mar 2011 14:04:31 +0100
+
 tig (0.16.2-1) experimental; urgency=low
 
   * New upstream release.
