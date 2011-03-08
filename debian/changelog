@@ -11,8 +11,9 @@ tig (0.17-1) unstable; urgency=low
     - (Again) pass -I/usr/include/ncursesw to CFLAGS; this is no longer
       handled by the configure script which now uses the third-party
       'AX_WITH_CURSES' macro.
+    - Do not install 'test-graph' to the package.
 
- -- Sebastian Harl <tokkee@debian.org>  Tue, 08 Mar 2011 14:26:55 +0100
+ -- Sebastian Harl <tokkee@debian.org>  Tue, 08 Mar 2011 14:36:03 +0100
 
 tig (0.16.2-1) experimental; urgency=low
 
