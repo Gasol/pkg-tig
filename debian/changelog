@@ -12,8 +12,9 @@ tig (0.17-1) unstable; urgency=low
       handled by the configure script which now uses the third-party
       'AX_WITH_CURSES' macro.
     - Do not install 'test-graph' to the package.
+    - Install 'NEWS' as upstream changelog, rather than as 'NEWS'.
 
- -- Sebastian Harl <tokkee@debian.org>  Tue, 08 Mar 2011 14:36:03 +0100
+ -- Sebastian Harl <tokkee@debian.org>  Tue, 08 Mar 2011 14:43:17 +0100
 
 tig (0.16.2-1) experimental; urgency=low
 
