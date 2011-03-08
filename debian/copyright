@@ -43,6 +43,9 @@ License:
 	modified version of the Autoconf Macro, you may extend this special
 	exception to the GPL to apply to your modified version as well.
 
+On Debian systems, the complete text of the GNU General Public License,
+version 3, can be found in `/usr/share/common-licenses/GPL-3'.
+
 	Files: *
 
 	Copyright © 2006-2010 Jonas Fonseca <fonseca@diku.dk>
@@ -61,8 +64,8 @@ License:
 	along with this package; if not, write to the Free Software
 	Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
 
-On Debian systems, the complete text of the GNU General Public License
-can be found in `/usr/share/common-licenses/GPL'.
+On Debian systems, the complete text of the GNU General Public License,
+version 2, can be found in `/usr/share/common-licenses/GPL-2'.
 
 	Much of the code for dealing with Unicode is derived from ELinks' UTF-8
 	code developed by Scrool <scroolik@gmail.com>. Origin file is
@@ -73,6 +76,6 @@ can be found in `/usr/share/common-licenses/GPL'.
 On Debian systems, the complete text of the GNU General Public License,
 version 2, can be found in `/usr/share/common-licenses/GPL-2'.
 
-The Debian packaging is © 2006-2010, Sebastian Harl <tokkee@debian.org> and
+The Debian packaging is © 2006-2011, Sebastian Harl <tokkee@debian.org> and
 is licensed under the GPL, see above.
 
