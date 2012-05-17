@@ -4,6 +4,8 @@ tig (1.0-1) UNRELEASED; urgency=low
     for reporting this (Closes: #656810).
     - Fixed substitution of %(xxx) in prompt commands; thanks to Daniel T Chen
       for reporting this (Closes: #635546).
+    - Fixed 'go to a line' feature; thanks to Christian Ohm for reporting this
+      (Closes: #626124).
   * debian/rules:
     - Don't remove 'test-graph'; it is no longer installed by 'make install'.
     - Don't try to install TODO; it no longer exists.
