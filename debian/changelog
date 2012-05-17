@@ -10,6 +10,8 @@ tig (1.0-1) UNRELEASED; urgency=low
     - Don't remove 'test-graph'; it is no longer installed by 'make install'.
     - Don't try to install TODO; it no longer exists.
     - Split build target into build-{arch,indep} as recommended by policy.
+  * debian/control:
+    - Updated standards-version to 3.9.3 -- no changes.
 
  -- Sebastian Harl <tokkee@debian.org>  Thu, 17 May 2012 18:15:46 +0200
 
