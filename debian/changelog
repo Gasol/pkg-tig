@@ -1,6 +1,8 @@
 tig (1.0-1) UNRELEASED; urgency=low
 
   * New upstream release.
+    - Fixed substitution of %(xxx) in prompt commands; thanks to Daniel T Chen
+      for reporting this (Closes: #635546).
 
  -- Sebastian Harl <tokkee@debian.org>  Thu, 17 May 2012 18:15:46 +0200
 
