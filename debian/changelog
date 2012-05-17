@@ -1,6 +1,7 @@
 tig (1.0-1) UNRELEASED; urgency=low
 
-  * New upstream release.
+  * New upstream release; thanks to Salvatore Bonaccorso and Romain Francoise
+    for reporting this (Closes: #656810).
     - Fixed substitution of %(xxx) in prompt commands; thanks to Daniel T Chen
       for reporting this (Closes: #635546).
 
