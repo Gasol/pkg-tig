@@ -68,7 +68,7 @@ binary-arch: build install
 	dh_testdir
 	dh_testroot
 	dh_installchangelogs NEWS
-	dh_installdocs BUGS TODO manual.pdf
+	dh_installdocs BUGS manual.pdf
 	dh_installexamples contrib/tigrc
 	dh_link
 	dh_strip
