@@ -4,6 +4,8 @@ tig (1.0-1) UNRELEASED; urgency=low
     for reporting this (Closes: #656810).
     - Fixed substitution of %(xxx) in prompt commands; thanks to Daniel T Chen
       for reporting this (Closes: #635546).
+  * debian/rules:
+    - Don't remove 'test-graph'; it is no longer installed by 'make install'.
 
  -- Sebastian Harl <tokkee@debian.org>  Thu, 17 May 2012 18:15:46 +0200
 

@@ -57,9 +57,6 @@ install: build
 	
 	$(MAKE) install install-doc DESTDIR=$(CURDIR)/debian/tig
 	
-	# there is no need to ship this binary
-	rm debian/tig/usr/bin/test-graph
-	
 	mkdir -p debian/tig/etc/bash_completion.d
 	cp contrib/tig-completion.bash debian/tig/etc/bash_completion.d/tig
 	chmod 644 debian/tig/etc/bash_completion.d/tig
