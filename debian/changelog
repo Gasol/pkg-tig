@@ -9,6 +9,7 @@ tig (1.0-1) UNRELEASED; urgency=low
   * debian/rules:
     - Don't remove 'test-graph'; it is no longer installed by 'make install'.
     - Don't try to install TODO; it no longer exists.
+    - Split build target into build-{arch,indep} as recommended by policy.
 
  -- Sebastian Harl <tokkee@debian.org>  Thu, 17 May 2012 18:15:46 +0200
 
