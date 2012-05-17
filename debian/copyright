@@ -48,7 +48,7 @@ version 3, can be found in `/usr/share/common-licenses/GPL-3'.
 
 	Files: *
 
-	Copyright © 2006-2010 Jonas Fonseca <fonseca@diku.dk>
+	Copyright © 2006-2012 Jonas Fonseca <fonseca@diku.dk>
 
 	This package is free software; you can redistribute it and/or modify
 	it under the terms of the GNU General Public License as published by
@@ -76,6 +76,6 @@ version 2, can be found in `/usr/share/common-licenses/GPL-2'.
 On Debian systems, the complete text of the GNU General Public License,
 version 2, can be found in `/usr/share/common-licenses/GPL-2'.
 
-The Debian packaging is © 2006-2011, Sebastian Harl <tokkee@debian.org> and
+The Debian packaging is © 2006-2012, Sebastian Harl <tokkee@debian.org> and
 is licensed under the GPL, see above.
 
