@@ -1,4 +1,4 @@
-tig (1.0-1) UNRELEASED; urgency=low
+tig (1.0-1) unstable; urgency=low
 
   * New upstream release; thanks to Salvatore Bonaccorso and Romain Francoise
     for reporting this (Closes: #656810).
