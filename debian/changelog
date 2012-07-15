@@ -1,3 +1,12 @@
+tig (1.0-2) UNRELEASED; urgency=low
+
+  * debian/patches:
+    - Added bts680442-broken-graph.patch -- upstream patch fixing a regression
+      breaking the graph when path spec is specified; thanks to Simon Paillard
+      for reporting this (Closes: #680442).
+
+ -- Sebastian Harl <tokkee@debian.org>  Sun, 15 Jul 2012 11:37:31 +0200
+
 tig (1.0-1) unstable; urgency=low
 
   * New upstream release; thanks to Salvatore Bonaccorso and Romain Francoise
