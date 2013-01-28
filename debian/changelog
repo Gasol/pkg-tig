@@ -1,6 +1,8 @@
 tig (1.1-1) UNRELEASED; urgency=low
 
   * New upstream release.
+    - Various documentation improvements in tigrc(5); thanks to Yuri D'Elia
+      for suggesting this (Closes: #682766).
 
  -- Sebastian Harl <tokkee@debian.org>  Mon, 28 Jan 2013 22:31:28 +0100
 
