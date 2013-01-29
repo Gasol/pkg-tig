@@ -1,14 +1,15 @@
-tig (1.1-1) UNRELEASED; urgency=low
+tig (1.1-1) experimental; urgency=low
 
   * New upstream release.
     - Various documentation improvements in tigrc(5); thanks to Yuri D'Elia
       for suggesting this (Closes: #682766).
+  * Uploading to experimental because of Wheezy freeze.
   * debian/patches:
     - Removed bts680442-broken-graph.patch; applied upstream.
   * debian/control:
     - Updated standards-version to 3.9.4 -- no changes.
 
- -- Sebastian Harl <tokkee@debian.org>  Mon, 28 Jan 2013 22:31:28 +0100
+ -- Sebastian Harl <tokkee@debian.org>  Tue, 29 Jan 2013 22:14:02 +0100
 
 tig (1.0-2) unstable; urgency=low
 
