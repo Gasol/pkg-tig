@@ -1,3 +1,10 @@
+tig (1.1-2) unstable; urgency=low
+
+  * Re-upload to unstable; Wheezy has been released long ago (Closes: #712162).
+  * Fixed operation when inside a submodule (Closes: #701912).
+
+ -- Sebastian Harl <tokkee@debian.org>  Sat, 23 Nov 2013 18:49:16 +0100
+
 tig (1.1-1) experimental; urgency=low
 
   * New upstream release.
