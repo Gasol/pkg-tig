@@ -1,8 +1,8 @@
-tig (1.2.1-1) UNRELEASED; urgency=low
+tig (1.2.1-1) unstable; urgency=low
 
   * New upstream release.
 
- -- Sebastian Harl <tokkee@debian.org>  Sat, 23 Nov 2013 19:22:19 +0100
+ -- Sebastian Harl <tokkee@debian.org>  Sat, 23 Nov 2013 19:46:52 +0100
 
 tig (1.1-2) unstable; urgency=low
 
