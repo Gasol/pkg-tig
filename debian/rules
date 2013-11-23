@@ -52,10 +52,11 @@ clean:
 	$(MAKE) clean
 	
 	rm -f config.h config.log config.make config.status
-	rm -rf manual.html-chunked/
-	rm -f manual.pdf manual.html manual.toc
-	rm -f tig.1 tig.1.html tigrc.5 tigrc.5.html
-	rm -f NEWS.html README.html
+	rm -rf doc/manual.html-chunked/
+	rm -f doc/manual.pdf doc/manual.html doc/manual.toc
+	rm -f doc/tigmanual.7
+	rm -f doc/tig.1 doc/tig.1.html doc/tigrc.5 doc/tigrc.5.html
+	rm -f INSTALL.html NEWS.html README.html
 	
 	dh_clean 
 
@@ -65,6 +66,8 @@ install: build
 	dh_clean -k
 	dh_installdirs
 	
+	# don't ship install instructions; README only links to them
+	rm -f INSTALL.html README.html
 	$(MAKE) install install-doc DESTDIR=$(CURDIR)/debian/tig
 	
 	mkdir -p debian/tig/etc/bash_completion.d
@@ -78,7 +81,7 @@ binary-arch: build install
 	dh_testdir
 	dh_testroot
 	dh_installchangelogs NEWS
-	dh_installdocs BUGS manual.pdf
+	dh_installdocs BUGS doc/manual.pdf
 	dh_installexamples contrib/tigrc
 	dh_link
 	dh_strip
