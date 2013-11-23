@@ -1,3 +1,9 @@
+tig (1.2.1-1) UNRELEASED; urgency=low
+
+  * New upstream release.
+
+ -- Sebastian Harl <tokkee@debian.org>  Sat, 23 Nov 2013 19:22:19 +0100
+
 tig (1.1-2) unstable; urgency=low
 
   * Re-upload to unstable; Wheezy has been released long ago (Closes: #712162).
