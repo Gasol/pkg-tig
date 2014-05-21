@@ -30,7 +30,8 @@ config.status: configure
 	dh_testdir
 	./configure --host=$(DEB_HOST_GNU_TYPE) --build=$(DEB_BUILD_GNU_TYPE) \
 		--prefix=/usr --mandir=\$${prefix}/share/man --sysconfdir=/etc \
-		CPPFLAGS="$(CPPFLAGS)" CFLAGS="$(CFLAGS)" LDFLAGS="$(LDFLAGS)"
+		--with-readline CPPFLAGS="$(CPPFLAGS)" CFLAGS="$(CFLAGS)" \
+		LDFLAGS="$(LDFLAGS)"
 
 build: build-arch build-indep
 
