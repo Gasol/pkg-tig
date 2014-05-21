@@ -67,11 +67,8 @@ install: build
 	dh_clean -k
 	dh_installdirs
 
-	$(MAKE) install install-doc DESTDIR=$(CURDIR)/debian/tig
-	# don't ship install instructions; README only links to them
-	rm -f debian/tig/usr/share/doc/tig/INSTALL.html \
-		debian/tig/usr/share/doc/tig/README.html
-	
+	$(MAKE) install install-doc-man doc/manual.pdf DESTDIR=$(CURDIR)/debian/tig
+
 	mkdir -p debian/tig/etc/bash_completion.d
 	cp contrib/tig-completion.bash debian/tig/etc/bash_completion.d/tig
 	chmod 644 debian/tig/etc/bash_completion.d/tig
