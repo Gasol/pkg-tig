@@ -39,33 +39,33 @@ build-indep: build-stamp
 
 build-stamp: config.status
 	dh_testdir
-	
+
 	$(MAKE) all doc
-	
+
 	touch build-stamp
 
 clean:
 	dh_testdir
 	dh_testroot
 	rm -f build-stamp
-	
+
 	$(MAKE) clean
-	
+
 	rm -f config.h config.log config.make config.status
 	rm -rf doc/manual.html-chunked/
 	rm -f doc/manual.pdf doc/manual.html doc/manual.toc
 	rm -f doc/tigmanual.7
 	rm -f doc/tig.1 doc/tig.1.html doc/tigrc.5 doc/tigrc.5.html
 	rm -f INSTALL.html NEWS.html README.html
-	
-	dh_clean 
+
+	dh_clean
 
 install: build
 	dh_testdir
 	dh_testroot
 	dh_clean -k
 	dh_installdirs
-	
+
 	$(MAKE) install install-doc DESTDIR=$(CURDIR)/debian/tig
 	# don't ship install instructions; README only links to them
 	rm -f debian/tig/usr/share/doc/tig/INSTALL.html \
