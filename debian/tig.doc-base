@@ -11,10 +11,6 @@ Abstract: This is the manual for tig, the ncurses-based text-mode interface
  commit with the log message, diffstat, and the diff.
 Section: Programming
 
-Format: HTML
-Index: /usr/share/doc/tig/manual.html
-Files: /usr/share/doc/tig/*.html
-
 Format: PDF
 Files: /usr/share/doc/tig/manual.pdf
 
